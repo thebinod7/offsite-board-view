@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,500&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/styles.css" />
+    <title>Board Views</title>
+  </head>
+  <body>
+    <div
+      style="
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20%;
+        padding: 15px 180px;
+        background: #f9f9f9;
+        margin: 15% 100px 2% 100px;
+      "
+      ;
+    >
+      <div>
+        <div class="new-left-box">
+          <p>Ready to Start?</p>
+          <p style="font-weight: 400; margin-top: -10px">
+            Install Offsite from the Chrome Store
+          </p>
+        </div>
+      </div>
+
+      <div>
+        <div
+          onclick="window.open('https://chrome.google.com/webstore/detail/offsite-for-mondaycom/mcnjnnkpahkmohlocmkfmkndnlcakfio', '_blank');"
+          class="new-right-box"
+          style="
+            cursor: pointer;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+          "
+        >
+          <img
+            style="margin-left: 10px; margin-right: 10px"
+            width="22px"
+            height="22px"
+            src="assets/chrome.png"
+            alt="Chrome"
+          />
+          <span class="right-box-text"> Install On Chrome Store </span>
+        </div>
+      </div>
+    </div>
+    <div class="link-box">
+      <a class="link-item" href="#">
+        ▶️ Learn how to Install and Use Offsite
+      </a>
+    </div>
+  </body>
+</html>
