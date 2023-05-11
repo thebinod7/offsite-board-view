@@ -83,7 +83,7 @@
 .main-logo {
   width: 72px;
   height: 72px;
-  padding-left: 46%;
+  padding-left: 48%;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -114,4 +114,20 @@
 }
 .text-box {
   padding-left: 34%;
+}
+
+/* Responsive UI */
+@media only screen and (max-width: 1030px) {
+  .main-box {
+    flex-direction: column !important;
+  }
+  .new-left-box {
+    margin-left: 28%;
+  }
+  .new-right-box {
+    margin-left: 28%;
+  }
+  .main-logo {
+    padding-left: 50%;
+  }
 }
